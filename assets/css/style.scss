@@ -1,0 +1,28 @@
+@import 'reset';
+@import 'variables';
+
+.player {
+  margin: 20px;
+  width: 0;
+  height: 0;
+  background-repeat: no-repeat;
+  // triangle
+  border-style: solid;
+  border-width: 15px 0 15px 35px;
+  border-color: transparent transparent transparent #1b5f7a;
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  border: 1px solid rgba(61, 61, 61, 0.25);
+  background-color: #c2c2c2;
+  width: 70px;
+  height: 70px;
+}
+
+.target-cell {
+  background-color: green;
+}
